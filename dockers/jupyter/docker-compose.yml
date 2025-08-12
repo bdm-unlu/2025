@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+
+#https://github.com/jupyter/docker-stacks
+
+  jupyter:
+    build:
+      context: ./jupyter
+    ports:
+      - "8888:8888"
+      - "8050:8050"
+    volumes:
+          - "./notebooks:/notebooks" 
+          - "./data:/data"
