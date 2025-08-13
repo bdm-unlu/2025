@@ -4,5 +4,4 @@ Repositorio git para la cursada del 2do Cuatrimestre 2025 para la Carrera de Lic
 
 ___Equipo docente_:__
 - Santiago Banchero.
-- Juan Manuel Fernandez.
 - Maximiliano Lulic.
