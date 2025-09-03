@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+   db:
+      image: apache/hop-web:latest
+      ports:
+       - '8080:8080'
+      environment:
+        HOP_PROJECT_FOLDER: /project
+        HOP_PROJECT_NAME: bdm-hop
+        HOP_ENVIRONMENT_NAME: bdm-hop-test
+      volumes:
+          - "./project:/project"
